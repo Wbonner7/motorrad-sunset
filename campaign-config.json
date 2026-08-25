@@ -1,0 +1,24 @@
+{
+  "campanha": "bmw_motorrad_sunset_mii_2026",
+  "evento": {
+    "data": "2026-08-30",
+    "hora": "14:00",
+    "local": "MII Rooftop, Rua Cândido Lacerda, 33, Vila Regente Feijó, São Paulo, SP",
+    "classificacao": "18 anos"
+  },
+  "rd": {
+    "conversion_identifier": "bmw_motorrad_sunset_mii_2026",
+    "fields": [
+      "motorrad_sunset_acompanhante",
+      "motorrad_sunset_nome_acompanhante",
+      "motorrad_sunset_vendedor"
+    ]
+  },
+  "tracking": {
+    "gtm_id": "GTM-XXXXXXX"
+  },
+  "planilha": {
+    "env": "SHEETS_WEBHOOK_URL",
+    "optional": true
+  }
+}

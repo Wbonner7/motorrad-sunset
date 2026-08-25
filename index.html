@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sunset MII Rooftop | BMW Motorrad Osten</title>
+<meta name="description" content="Sunset MII Rooftop apresentado pela BMW Motorrad Osten. 30 de agosto, a partir das 14h. Vagas limitadas.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600&display=swap');
+:root{--bg:#080706;--panel:#11100e;--text:#f3eee7;--muted:#aaa198;--gold:#c98c4b;--line:rgba(243,238,231,.16)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}a{color:inherit;text-decoration:none}
+.nav{position:fixed;z-index:50;inset:0 0 auto;display:flex;align-items:center;justify-content:space-between;padding:20px 5vw;background:linear-gradient(180deg,rgba(0,0,0,.9),rgba(0,0,0,0));backdrop-filter:blur(7px)}.brand{font-size:11px;font-weight:800;letter-spacing:.18em}.brand i{font-style:normal;color:var(--gold)}.links{display:flex;gap:26px;font-size:11px;color:#d5cec6}.links a:hover{color:var(--gold)}.btn{display:inline-flex;justify-content:center;align-items:center;background:var(--gold);color:#100d09;padding:15px 23px;border-radius:2px;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.hero{min-height:100svh;position:relative;display:flex;align-items:flex-end;overflow:hidden;background:#080706}.heroImage{position:absolute;inset:0;background:url('assets/01-rooftop-piscina.jpg') center/cover}.heroImage:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.54) 40%,rgba(0,0,0,.12) 78%),linear-gradient(0deg,rgba(0,0,0,.9),transparent 58%)}.heroContent{position:relative;z-index:2;width:min(900px,90%);padding:145px 7vw 75px}.eyebrow,.kicker{color:var(--gold);font-size:10px;font-weight:800;letter-spacing:.25em;text-transform:uppercase}.hero h1{font-family:"Playfair Display",Georgia,serif;font-weight:500;font-size:clamp(62px,9vw,140px);line-height:.83;letter-spacing:-.045em;margin:18px 0 25px}.hero h1 span{display:block;font-family:Inter,Arial,sans-serif;font-size:clamp(13px,1.5vw,18px);line-height:1.2;letter-spacing:.22em;font-weight:800;margin-top:22px}.hero p{max-width:560px;color:#d4ccc3;line-height:1.75;font-size:16px}.eventMeta{display:flex;gap:18px;align-items:center;margin:28px 0 26px;font-size:12px;font-weight:700;letter-spacing:.08em}.eventMeta b{color:var(--gold)}
+.count{display:flex;gap:7px;margin:0 0 30px}.count div{min-width:62px;padding:10px 12px;border:1px solid var(--line);background:rgba(8,7,6,.5);text-align:center}.count strong{display:block;font-size:19px}.count small{font-size:8px;color:#8f8881;text-transform:uppercase;letter-spacing:.12em}
+section{padding:105px 7vw}.sectionHead{max-width:780px}.title{font-family:"Playfair Display",Georgia,serif;font-size:clamp(45px,5.5vw,82px);line-height:.98;font-weight:500;letter-spacing:-.03em;margin:16px 0 25px}.copy{color:#bbb2a9;line-height:1.8;font-size:16px;max-width:720px}
+.intro{background:#0b0a09}.introGrid{display:grid;grid-template-columns:1fr .7fr;gap:80px;align-items:end}.sideNumber{font-size:12px;color:#7e7770;letter-spacing:.15em;border-top:1px solid var(--line);padding-top:16px}.sideNumber strong{display:block;color:var(--text);font-size:38px;letter-spacing:-.03em;margin:10px 0}.sideNumber span{color:var(--gold)}
+.experience{background:#0e0c0a}.experienceGrid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line);margin-top:55px}.experienceCard{min-height:280px;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,0))}.experienceCard .n{color:var(--gold);font-size:10px;letter-spacing:.2em;font-weight:800}.experienceCard h3{font-size:24px;margin:68px 0 13px}.experienceCard p{font-size:14px;color:var(--muted);line-height:1.7;margin:0}.experienceCard.feature{background:linear-gradient(145deg,rgba(201,140,75,.12),rgba(255,255,255,.015))}
+.manifesto{background:#0a0908;position:relative;overflow:hidden}.manifesto:before{content:"MAKE LIFE A RIDE.";position:absolute;right:-5vw;top:50%;transform:translateY(-50%);font-size:clamp(80px,15vw,220px);font-weight:800;letter-spacing:-.08em;line-height:.8;color:rgba(255,255,255,.025);white-space:nowrap}.manifestoGrid{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.manifestoMark{font-size:clamp(90px,12vw,180px);line-height:.7;font-weight:800;letter-spacing:-.09em;color:var(--gold)}.manifestoCopy{border-left:1px solid var(--line);padding-left:45px}.manifestoCopy .title{font-size:clamp(42px,5vw,72px)}
+.details{background:#f0e9e0;color:#17130f}.details .kicker{color:#8c5a2d}.details .title{color:#17130f}.details .copy{color:#5f574f}.detailGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#cfc4b7;margin-top:55px;border:1px solid #cfc4b7}.detail{background:#f0e9e0;padding:30px;min-height:180px}.detail strong{display:block;font-size:29px;margin:15px 0 7px}.detail small{font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:#786f67}
+.location{background:#0b0a09}.locationGrid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.address{border-top:1px solid var(--line);padding-top:20px}.address strong{font-size:26px}.address p{color:var(--muted);line-height:1.8}
+.formSection{background:#0e0c0a}.formWrap{max-width:960px;margin:auto}.formIntro{text-align:center;max-width:720px;margin:auto}.form{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:50px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:10px;color:#99918a;text-transform:uppercase;letter-spacing:.13em}.field input{padding:16px;background:#11100e;color:#fff;border:1px solid var(--line);font:inherit;border-radius:2px}.field input:focus{outline:1px solid var(--gold)}.radios{display:flex;gap:10px}.radios label{border:1px solid var(--line);padding:13px 18px;color:#ddd;cursor:pointer}.radios input{width:auto}.form button{grid-column:1/-1;border:0;cursor:pointer;width:100%}.note{text-align:center;color:#777;font-size:11px;margin-top:20px;line-height:1.6}
+.faq{max-width:850px;margin:auto}.faq details{border-top:1px solid var(--line);padding:22px 0}.faq summary{cursor:pointer;font-weight:600}.faq p{color:var(--muted);line-height:1.7;font-size:14px}
+.footer{border-top:1px solid var(--line);padding:42px 7vw;display:flex;justify-content:space-between;color:#777;font-size:10px;letter-spacing:.1em}.footer b{color:var(--gold)}
+
+.imageSection{padding:0;background:#0b0a09;display:grid;grid-template-columns:1.08fr .92fr;min-height:620px;overflow:hidden}.imageSection.reverse{grid-template-columns:.92fr 1.08fr}.imageSection .visual{min-height:620px;position:relative;overflow:hidden}.imageSection .visual img{width:100%;height:100%;display:block;object-fit:cover}.imageSection .visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,7,6,.05),rgba(8,7,6,.35))}.imageSection.reverse .visual:after{background:linear-gradient(270deg,rgba(8,7,6,.05),rgba(8,7,6,.35))}.imageSection .content{padding:95px 8vw;display:flex;flex-direction:column;justify-content:center}.imageSection .content .title{max-width:620px}.imageSection .content .copy{max-width:570px}.experiencePhoto{margin-top:55px;display:grid;grid-template-columns:1fr 1fr;min-height:470px}.experiencePhoto .photo{min-height:470px;overflow:hidden}.experiencePhoto img{width:100%;height:100%;object-fit:cover;display:block}.experiencePhoto .photo.tall{margin-top:45px}.photoCaption{padding:28px 7vw;display:flex;align-items:center;background:#0b0a09}.photoCaption .captionInner{max-width:650px}.photoCaption h3{font-family:"Playfair Display",Georgia,serif;font-weight:500;font-size:clamp(34px,4vw,58px);line-height:1;margin:12px 0 18px}.manifestoVisual{position:relative;min-height:560px;margin-top:70px;overflow:hidden}.manifestoVisual img{width:100%;height:100%;min-height:560px;object-fit:cover;display:block;filter:saturate(.9)}.manifestoVisual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,7,6,.86),rgba(8,7,6,.2) 65%,rgba(8,7,6,.08))}.manifestoOverlay{position:absolute;z-index:2;inset:0;display:flex;align-items:center;padding:7vw}.manifestoOverlay .inner{max-width:620px}.manifestoOverlay .title{font-size:clamp(44px,5vw,78px)}
+@media(max-width:800px){.imageSection,.imageSection.reverse{grid-template-columns:1fr;min-height:auto}.imageSection .visual{min-height:58vh;max-height:620px}.imageSection .content{padding:75px 7vw}.experiencePhoto{grid-template-columns:1fr;min-height:auto}.experiencePhoto .photo,.experiencePhoto .photo.tall{min-height:58vh;margin-top:0}.photoCaption{padding:55px 7vw}.manifestoVisual,.manifestoVisual img{min-height:70vh}}
+
+@media(max-width:800px){.links{display:none}.nav .btn{padding:12px 15px}.heroContent{padding:130px 7vw 55px}.introGrid,.locationGrid,.manifestoGrid{grid-template-columns:1fr;gap:45px}.experienceGrid,.detailGrid{grid-template-columns:1fr}.manifestoCopy{border-left:0;border-top:1px solid var(--line);padding:30px 0 0}.form{grid-template-columns:1fr}.field.full,.form button{grid-column:auto}.footer{display:block;line-height:2.2}}
+</style>
+<meta name="description" content="Sunset MII Rooftop, uma experiência BMW Motorrad Osten.">
+</head>
+<body>
+<script>
+window.dataLayer = window.dataLayer || [];
+window.motorradAnalytics = {
+  push: function(eventName, params) {
+    window.dataLayer.push(Object.assign({
+      event: eventName,
+      campanha: 'bmw_motorrad_sunset_mii_2026'
+    }, params || {}));
+  }
+};
+</script>
+<script>
+(function(w,d,s,l,i){
+  w[l]=w[l]||[];
+  w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+  var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),
+      dl=l!='dataLayer'?'&l='+l:'';
+  j.async=true;
+  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+  f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');
+</script>
+
+<nav class="nav"><div class="brand">BMW MOTORRAD <i>| OSTEN</i></div><div class="links"><a href="#experiencia">Experiência</a><a href="#evento">Evento</a><a href="#local">Local</a><a href="#inscricao">Inscrição</a></div><a class="btn" href="#inscricao">Garantir minha vaga</a></nav>
+
+<header class="hero">
+  <div class="heroImage"></div>
+  <div class="heroContent">
+    <div class="eyebrow">BMW MOTORRAD OSTEN APRESENTA</div>
+    <h1>MAKE LIFE<br>A RIDE.<span>SUNSET MII ROOFTOP</span></h1>
+    <p>O Sunset volta em uma edição especial, onde liberdade, movimento e lifestyle se encontram no cenário perfeito: o pôr do sol.</p>
+    <div class="eventMeta"><b>30 DE AGOSTO</b><span>|</span><span>A PARTIR DAS 14H</span></div>
+    <div class="count"><div><strong id="d">--</strong><small>dias</small></div><div><strong id="h">--</strong><small>horas</small></div><div><strong id="m">--</strong><small>min</small></div><div><strong id="s">--</strong><small>seg</small></div></div>
+    <a class="btn" href="#inscricao">Quero viver essa experiência</a>
+  </div>
+</header>
+
+<section class="imageSection" id="experiencia"><div class="visual"><img src="assets/02-motorrad-sunset.jpg" alt="Motociclistas BMW Motorrad ao pôr do sol"></div><div class="content"><div class="kicker">Make Life a Ride</div><h2 class="title">Uma tarde criada para quem sabe que viver também é se mover.</h2><p class="copy">O Sunset MII Rooftop reúne a liberdade da BMW Motorrad, a energia da cidade e a atmosfera de um fim de tarde especial. Uma experiência para quem entende que movimento também é um jeito de viver.</p><div class="sideNumber" style="margin-top:35px">30 <span>/</span> 08 <strong>2026</strong>A PARTIR DAS 14H<br><br>VILA REGENTE FEIJÓ<br>SÃO PAULO</div></div></section>
+
+<section class="experience" id="evento"><div class="kicker">A experiência</div><h2 class="title">O que faz essa tarde<br>ser diferente.</h2><div class="experienceGrid"><div class="experienceCard feature"><div class="n">01</div><h3>Sunset</h3><p>O pôr do sol como cenário para uma edição especial do MII Rooftop.</p></div><div class="experienceCard"><div class="n">02</div><h3>DJ</h3><p>DJ Dre Guazzelli conduz a atmosfera da tarde com uma trilha pensada para o momento.</p></div><div class="experienceCard"><div class="n">03</div><h3>Motorrad</h3><p>A BMW Motorrad Osten apresenta uma experiência que conecta mobilidade, design e lifestyle.</p></div></div></section>
+<section class="experiencePhoto"><div class="photo"><img src="assets/03-cocktail.jpg" alt="Drink no rooftop ao pôr do sol"></div><div class="photo tall"><img src="assets/04-dj-rooftop.jpg" alt="DJ em rooftop ao pôr do sol"></div></section><div class="photoCaption"><div class="captionInner"><div class="kicker">Além das motos</div><h3>Uma experiência para todos os sentidos.</h3><p class="copy">Drinks, música, rooftop e o pôr do sol. Tudo pensado para transformar uma tarde de domingo em uma experiência para lembrar.</p></div></div>
+
+<section class="imageSection reverse"><div class="content"><div class="kicker">Um encontro</div><h2 class="title">Mais do que um evento. Um encontro.</h2><p class="copy">O Sunset MII é sobre compartilhar o momento. Pessoas, música, cidade e o universo BMW Motorrad se encontram em um mesmo cenário.</p><p class="copy">Chegue para viver a experiência. Fique pelo que ela desperta.</p></div><div class="visual"><img src="assets/05-pessoas-rooftop.jpg" alt="Pessoas aproveitando um rooftop ao pôr do sol"></div></section>
+<section class="manifesto"><div class="manifestoGrid"><div class="manifestoMark">#<br>SOUL<br>FUEL</div><div class="manifestoCopy"><div class="kicker">BMW Motorrad</div><h2 class="title">A vida não foi feita para ficar parada.</h2><p class="copy">O conceito #SoulFuel da BMW Motorrad traduz uma relação com a liberdade, a estrada e as experiências que fazem cada momento valer a pena.</p><p class="copy">No Sunset MII, essa atitude encontra o pôr do sol, a música e a cidade.</p></div></div></section><div class="manifestoVisual"><img src="assets/06-grupo-motorrad.jpg" alt="Grupo de motociclistas BMW Motorrad em viagem"><div class="manifestoOverlay"><div class="inner"><div class="kicker">BMW Motorrad</div><h2 class="title">A vida não foi feita para ficar parada.</h2><p class="copy">O #SoulFuel traduz uma relação com liberdade, estrada e experiências que fazem cada momento valer a pena. No Sunset MII, essa atitude encontra o pôr do sol, a música e a cidade.</p></div></div></div></section>
+
+<section class="details"><div class="kicker">Tudo no mesmo lugar</div><h2 class="title">Reserve a data.</h2><p class="copy">Prepare-se para uma edição especial do Sunset MII Rooftop, apresentada pela BMW Motorrad Osten.</p><div class="detailGrid"><div class="detail"><small>Data</small><strong>30</strong><small>Agosto de 2026</small></div><div class="detail"><small>Início</small><strong>14h</strong><small>A partir das 14h</small></div><div class="detail"><small>Local</small><strong>MII</strong><small>Rooftop</small></div><div class="detail"><small>Classificação</small><strong>18+</strong><small>18 anos</small></div></div></section>
+
+<section class="location" id="local"><div class="locationGrid"><div><div class="kicker">Onde acontece</div><h2 class="title">MII Rooftop</h2><div class="address"><strong>São Paulo</strong><p>Rua Cândido Lacerda, 33<br>Vila Regente Feijó<br>São Paulo, SP</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Rua+Cândido+Lacerda+33+São+Paulo+SP" target="_blank">Abrir localização</a></div></div><div><div class="kicker">Uma edição especial</div><h2 class="title">Vagas limitadas.</h2><p class="copy">O evento é gratuito para clientes BMW Motorrad Osten, mediante inscrição e disponibilidade de vagas.</p><p class="copy">É permitido 1 acompanhante por inscrição. O nome do acompanhante deve ser informado no formulário.</p></div></div></section>
+
+<section class="formSection" id="inscricao"><div class="formWrap"><div class="formIntro"><div class="kicker">Vagas limitadas</div><h2 class="title">Garanta sua vaga.</h2><p class="copy">Preencha seus dados para confirmar sua presença e, se desejar, a de seu acompanhante.</p></div>
+<form class="form" id="motorradForm" action="#" method="post">
+<div class="field"><label>Nome completo</label><input name="nome" required></div><div class="field"><label>E-mail</label><input type="email" name="email" required></div>
+<div class="field"><label>WhatsApp</label><input name="whatsapp" required inputmode="tel" placeholder="(11) 9xxxx-xxxx" maxlength="16"></div><div class="field"><label>Vendedor BMW Motorrad Osten</label><input name="vendedor"></div>
+<div class="field full"><label>Você levará 1 acompanhante?</label><div class="radios"><label><input type="radio" name="acompanhante" value="Sim" required> Sim</label><label><input type="radio" name="acompanhante" value="Não"> Não</label></div></div>
+<div class="field full"><label>Nome do acompanhante</label><input name="nome_acompanhante" placeholder="Preencha se levar acompanhante"></div>
+<button class="btn" type="submit">Confirmar minha presença</button></form><div class="note">Evento gratuito para clientes BMW Motorrad Osten • Vagas limitadas • Classificação 18 anos</div></div></section>
+
+<section class="dark"><div class="faq"><div class="kicker">Dúvidas</div><h2 class="title">Antes de chegar.</h2><details><summary>O evento é gratuito?</summary><p>Sim. O Sunset MII Rooftop é gratuito para clientes BMW Motorrad Osten, mediante inscrição e disponibilidade de vagas.</p></details><details><summary>Posso levar acompanhante?</summary><p>Sim. É permitido 1 acompanhante por inscrição. O nome do acompanhante deve ser informado no formulário.</p></details><details><summary>Qual é o horário?</summary><p>O evento acontece no dia 30 de agosto, a partir das 14h.</p></details><details><summary>Qual é a classificação?</summary><p>O evento possui classificação 18 anos.</p></details></div></section>
+<footer class="footer"><div>BMW MOTORRAD <b>| OSTEN</b></div><div>MAKE LIFE A RIDE.</div></footer>
+
+<script>
+const target = new Date('2026-08-30T14:00:00-03:00').getTime();
+
+function tick(){
+  const x = Math.max(0, target - Date.now());
+  document.getElementById('d').textContent = String(Math.floor(x/86400000)).padStart(2,'0');
+  document.getElementById('h').textContent = String(Math.floor(x%86400000/3600000)).padStart(2,'0');
+  document.getElementById('m').textContent = String(Math.floor(x%3600000/60000)).padStart(2,'0');
+  document.getElementById('s').textContent = String(Math.floor(x%60000/1000)).padStart(2,'0');
+}
+tick();
+setInterval(tick,1000);
+
+window.motorradAnalytics.push('lp_view', {page_type:'landing_page'});
+
+document.querySelectorAll('a[href="#inscricao"]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    window.motorradAnalytics.push('cta_click', {
+      cta_text: btn.textContent.trim()
+    });
+  });
+});
+
+const phone = document.querySelector('input[name="whatsapp"]');
+if (phone) {
+  phone.addEventListener('input', e => {
+    let v = e.target.value.replace(/\D/g,'').slice(0,11);
+    e.target.value =
+      v.length <= 2 ? v :
+      v.length <= 7 ? `(${v.slice(0,2)}) ${v.slice(2)}` :
+      `(${v.slice(0,2)}) ${v.slice(2,7)}-${v.slice(7)}`;
+  });
+}
+
+const companionName = document.querySelector('input[name="nome_acompanhante"]');
+document.querySelectorAll('input[name="acompanhante"]').forEach(radio => {
+  radio.addEventListener('change', () => {
+    if (companionName) {
+      companionName.required = radio.value === 'Sim' && radio.checked;
+    }
+  });
+});
+
+const form = document.getElementById('motorradForm');
+
+if (form) {
+  form.addEventListener('submit', async function(e){
+    e.preventDefault();
+
+    const submitButton = form.querySelector('button[type="submit"]');
+    const originalText = submitButton.textContent;
+    submitButton.disabled = true;
+    submitButton.textContent = 'ENVIANDO...';
+
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    const params = new URLSearchParams(window.location.search);
+    data.utm_source = params.get('utm_source') || '';
+    data.utm_medium = params.get('utm_medium') || '';
+    data.utm_campaign = params.get('utm_campaign') || '';
+    data.utm_content = params.get('utm_content') || '';
+    data.utm_term = params.get('utm_term') || '';
+    data.landing_page_url = window.location.href;
+    data.referrer = document.referrer || '';
+
+    window.motorradAnalytics.push('form_start', {
+      form_name: 'sunset_mii_inscricao'
+    });
+
+    try {
+      const response = await fetch('/.netlify/functions/lead-motorrad', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || 'Não foi possível concluir a inscrição.');
+      }
+
+      window.motorradAnalytics.push('generate_lead', {
+        form_name: 'sunset_mii_inscricao',
+        acompanhante: data.acompanhante || '',
+        vendedor: data.vendedor || ''
+      });
+
+      window.motorradAnalytics.push('lead_rdstation_success', {
+        conversion_identifier: 'bmw_motorrad_sunset_mii_2026'
+      });
+
+      window.location.href = '/obrigado.html';
+    } catch (error) {
+      console.error(error);
+      window.motorradAnalytics.push('lead_submit_error', {
+        form_name: 'sunset_mii_inscricao'
+      });
+      alert('Não conseguimos concluir sua inscrição agora. Tente novamente em alguns instantes.');
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = originalText;
+    }
+  });
+}
+</script>
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+</body></html>
